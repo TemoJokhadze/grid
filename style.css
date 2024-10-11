@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecf2f8;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  /* gap: 10px; სივრცე */
+  padding: 20px; /* Padding around the grid */
+}
+
+.sidebar,
+.main .sidebar1,
+.main1,
+.footer {
+  padding: 20px; /* Inner padding */
+  color: white; /* ტექსტის ფერი */
+  border-radius: 8px; /* გრგასული კუთხეები */
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #733fc8;
+}
+.main {
+  grid-area: main;
+  background-color: #48556a;
+}
+.sidebar {
+  /* margin-top: 200px; */
+  margin-left: 100px;
+  width: 540px;
+  height: 282px;
+  margin-top: 30px;
+  position: absolute;
+}
+.main {
+  /* margin-top: 200px; */
+
+  margin-left: 470px;
+  width: 255px;
+  height: 282px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.sidebar1 {
+  grid-area: sidebar;
+  background-color: #ffffff;
+  width: 255px;
+  height: 266px;
+  margin-left: 100px;
+  margin-top: 350px;
+  border-radius: 8px;
+}
+.main1 {
+  grid-area: main;
+  background-color: #19202d;
+  width: 540px;
+  height: 266px;
+  margin-left: 190px;
+  margin-top: 350px;
+}
+.cont5 {
+  margin-left: 1000px;
+}
+.daniel {
+  font-size: 13px;
+  margin-left: 20px;
+  
+
+}
+.title {
+  font-size: 11px;
+  margin-left: 20px;
+  /* color: #48556A; */
+}
+.offer {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.emt {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.img {
+  border-radius: 100%;
+  margin-left: 10px;
+  width: 28px;
+  height: 28px;
+}
+.img2,
+.img3,
+.img4,
+.img5 {
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+}
+.img2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.jonathan,
+.jeanete,
+.patrik {
+  font-size: 13px;
+  color: white;
+}
+.jeanete {
+  color: #48556a;
+}
+.title3 {
+  color: #48556a;
+  font-size: 11px;
+}
+.title2,
+.title4,
+.title5 {
+  font-size: 11px;
+  /* color: #48556A; */
+  color: white;
+}
+.newbie,
+.wond,
+.genuine,
+.lineofcode {
+  font-size: 13px;
+}
+.jonathan,
+.title2 {
+  margin-left: 30px;
+}
+.team {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.newbie {
+  font-size: 13px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.img3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.jeanete,
+.title3 {
+  margin-left: 30px;
+}
+.overal {
+  font-size: 18px;
+  margin-left: 30px;
+}
+.wond {
+  margin-top: 20px;
+  width: 191px;
+  height: 72px;
+  margin-left: 30px;
+}
+.img4 {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.patrik,
+.title4 {
+  margin-left: 15px;
+}
+.bootcamp {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.genuine {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.footer {
+  width: 255px;
+  height: 590px;
+  background-color: white;
+  margin-left: 960px;
+  position: absolute;
+  margin-top: 30px;
+}
+.img5 {
+  width: 28px;
+  height: 28px;
+}
+.kira,
+.title5,
+.change,
+.lineofcode {
+  color: #48556a;
+}
+.lineofcode {
+  margin-top: 30px;
+  width: 191px;
+  height: 378px;
+}
+.change {
+  margin-top: 20px;
+}
